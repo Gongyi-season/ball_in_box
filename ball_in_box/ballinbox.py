@@ -33,7 +33,6 @@ def ball_in_box(num_of_circle, blockers):
 		circles[index]=maxcir
 
 		index+=1
-	draw(blockers,circles)
 	return circles
 def getCurrentSpotMaxCir(circle,index,circles,blockers):
 	min_r=0
